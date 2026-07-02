@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | VerifyPro</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <!-- Auth CSS -->
+    <link rel="stylesheet" href="register.css">
+
+</head>
+<body>
+    <!-- Background Effects -->
+    <div class="background-circle circle1"></div>
+    <div class="background-circle circle2"></div>
+    <!-- Main Container -->
+    <div class="auth-container">
+        <!-- Left Side -->
+        <div class="auth-left">
+            <div class="logo">
+                <img src="logo.jpg" alt="VerifyPro Logo">
+
+                <h2>VerifyPro</h2>
+
+            </div>
+
+            <span class="badge">
+
+                <i class="fa-solid fa-shield-halved"></i>
+
+                Trusted Identity Verification Platform
+
+            </span>
+
+            <h1>
+
+                Welcome Back To
+
+                <span>VerifyPro</span>
+
+            </h1>
+
+            <p>
+
+                Login to your account to access identity verification,
+                wallet services, API dashboard and transaction history.
+
+            </p>
+
+            <div class="features">
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-circle-check"></i>
+
+                    <span>Secure Login</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-lock"></i>
+
+                    <span>Protected With Encryption</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-wallet"></i>
+
+                    <span>Access Your Wallet</span>
+
+                </div>
+
+                <div class="feature">
+
+                    <i class="fa-solid fa-chart-line"></i>
+
+                    <span>Manage Your Verifications</span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- Right Side -->
+
+        <div class="auth-right">
+
+            <div class="auth-card">
+
+                <h2>Welcome Back!</h2>
+
+                <p>
+
+                    Sign in to continue to your VerifyPro account.
+
+                </p>
+
+                <form id="loginForm">
+
+                    <!-- Email -->
+
+                    <div class="input-group">
+
+                        <label>Email Address</label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-envelope"></i>
+
+                            <input
+                                type="email"
+                                id="email"
+                                placeholder="Enter your email"
+                                required>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Password -->
+
+                    <div class="input-group">
+
+                        <label>Password</label>
+
+                        <div class="input-box">
+
+                            <i class="fa-solid fa-lock"></i>
+
+                            <input
+                                type="password"
+                                id="password"
+                                placeholder="Enter your password"
+                                required>
+
+                            <i
+                                class="fa-solid fa-eye toggle-password"
+                                data-target="password"></i>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Remember Me -->
+
+                    <div class="remember-forgot">
+
+                        <label>
+
+                            <input type="checkbox">
+
+                            Remember Me
+
+                        </label>
+
+                        <a href="forgot-password.html">
+
+                            Forgot Password?
+
+                        </a>
+
+                    </div>
+
+                    <!-- Login Button -->
+
+                    <button
+                        type="submit"
+                        class="register-btn">
+
+                        Login
+
+                    </button>
+
+                </form>
+
+                <div class="divider">
+
+                    <span>OR</span>
+                </div>
+                <a href="register.html" class="login-link">
+                    Don't have an account?
+                    <strong>Create One</strong>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="login.js"></script>
+</body>
+</html>
